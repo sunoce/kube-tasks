@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"github.com/maorfr/skbn/pkg/skbn"
+	"github.com/sunoce/skbn/pkg/skbn"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 )
 

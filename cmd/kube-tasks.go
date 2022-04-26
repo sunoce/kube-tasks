@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/maorfr/kube-tasks/pkg/kubetasks"
-	"github.com/maorfr/kube-tasks/pkg/utils"
 	"github.com/spf13/cobra"
+	"github.com/sunoce/kube-tasks/pkg/kubetasks"
+	"github.com/sunoce/kube-tasks/pkg/utils"
 )
 
 func main() {

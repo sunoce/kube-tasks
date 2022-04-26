@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/maorfr/kube-tasks/pkg/utils"
+	"github.com/sunoce/kube-tasks/pkg/utils"
 	"github.com/sunoce/skbn/pkg/skbn"
 )
 
