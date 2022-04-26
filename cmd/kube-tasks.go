@@ -58,7 +58,7 @@ func NewSimpleBackupCmd(out io.Writer) *cobra.Command {
 		Short: "Backup files to cloud storage",
 		Long:  ``,
 		Run: func(cmd *cobra.Command, args []string) {
-			if _, err := kubetasks.SimpleBackup(b.namespace, b.selector, b.container, b.path, b.dst, b.parallel, b.tag, b.bufferSize); err != nil {
+			if _, err := kubetasks.SimpleBackup(b.namespace, b.selector, b.container, b.path, b.dst, b.parallel, b.tag, b.bufferSize, true); err != nil {
 				log.Fatal(err)
 			}
 		},
